@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main {
+    margin: 20px;
+}
+body {
+    background-color: mediumpurple;
+    color: rebeccapurple;
+    font-family: tahoma, Geneva;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 1px;
+}
+header {
+    background-color: black;
+    width: 100%;
+    height: 70px;
+}
+nav ul {
+    width: 80%;
+    margin: auto;
+}
+nav ul li {
+    display: inline-block;
+    margin: 2% 3% 2% 3%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+}
+.content {
+    
+    width:100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.content-1 {
+    background-color: RGBa(215,202,222, 0.1);
+    width: 45%;
+    margin-right: 10%;
+    margin-left: 2%;
+    box-shadow: 0px 1px 1px rebeccapurple, 0px 2px 1px rebeccapurple inset;
+}
+.content-1 div{
+    display: inline-block;
+    background-color: rgba(230,227,230, 0.1);
+    margin: 20px 10px 10px 25px;
+    width: 40%;
+    max-height: 155px;
+    border-radius: 5px;
+}
+.content-1 div img {
+    width: 100px;
+    height: 75px;
+    margin-left: 27%;
+    padding-bottom: 8px;
+}
+.content-1 div h3 {
+    text-align: center;
+    padding-bottom: 8px;
+}
+.content-2 {
+    width: 30%;  
+}
+.content-2 p a {
+    color: inherit;
+}
+.link {
+    background-color: black;
+    color:white;
+    margin-top: 20px;
+    padding: 7%;
+    border-radius: 3px;
+}
+.link h3 {
+    text-align: center;
+}
+.link ul li {
+    list-style: none;
+}
+.link ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
